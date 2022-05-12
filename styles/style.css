@@ -1,0 +1,353 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Kumbh+Sans:wght@400;600;700;900&family=Montserrat:wght@200;400;500;600&display=swap");
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  Remove list styles (bullets/numbers)
+  in case you use it with normalize.css
+*/
+ol, ul {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+#navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 8rem;
+  height: 12rem;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#logo p {
+  font-family: "Gemunu Libre", sans-serif;
+  text-align: left;
+  font-size: 3.4rem;
+  color: #FCFFFC;
+}
+
+#logo img {
+  height: 4rem;
+}
+
+nav a {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 4rem;
+  color: #FCFFFC;
+}
+
+#nav-links {
+  margin: auto 0;
+}
+
+.hero-background-bottom {
+  background-position: 0 -12rem;
+}
+
+.hero-background {
+  background-image: url("../img/hero-section-background.jpg");
+  height: 50rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-section {
+  background-color: #6CA95E;
+}
+
+#hero-section h1, #hero-section p {
+  text-align: left;
+}
+
+#hero-section h1 {
+  font-size: 4.4vw;
+  position: relative;
+  width: 40vw;
+  right: auto;
+}
+
+#hero-section p {
+  font-size: 1.8vw;
+  margin-top: 2rem;
+}
+
+#hero-copy {
+  padding-top: 16%;
+}
+
+#booking-section {
+  background-color: #6CA95E;
+}
+
+.booking-perks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.booking-perk {
+  padding: 0 3rem;
+}
+
+.booking-perk h1, .booking-perk p {
+  font-weight: bold;
+}
+
+.booking-perk i {
+  padding-right: 1rem;
+}
+
+#booking-options-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.booking-option {
+  background-color: #FCFFFC;
+  height: 6rem;
+  width: 20%;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
+
+.booking-option p {
+  color: #1D3218;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1.8rem 0;
+}
+
+.booking-option i {
+  margin-left: .8rem;
+  font-size: 1.8rem;
+}
+
+.cta-btn {
+  background-color: #EAF940 !important;
+  border: 2px solid #1D3218;
+}
+
+.cta-btn p {
+  font-weight: bold;
+}
+
+#options-additional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 2rem;
+  padding-left: 8rem;
+}
+
+#options-additional p {
+  color: #1D3218;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.option-additional {
+  margin-right: 2rem;
+}
+
+#faq-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.faq-card {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #5cb945), color-stop(70%, #47a030));
+  background: linear-gradient(0deg, #5cb945 10%, #47a030 70%);
+}
+
+.faq-card img {
+  position: relative;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #66e04b), to(#5dbc47));
+  background: linear-gradient(0deg, #66e04b 40%, #5dbc47 100%);
+  padding: 1rem;
+  border-radius: 10rem;
+  width: 7rem;
+  height: 7rem;
+  top: -3rem;
+  left: 3.5rem;
+}
+
+.faq-card-description {
+  position: relative;
+  top: -2rem;
+}
+
+.faq-card-description h1 {
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+}
+
+.faq-card-description p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#why-us-section {
+  background-image: url("../img/why-us-section-background.jpg");
+  height: 50rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#why-us-container {
+  width: 50%;
+  background-color: rgba(4, 37, 8, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+#why-us-container h1, #why-us-container p {
+  text-align: left;
+}
+
+#why-us-container h1 {
+  font-size: 3vw;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+#why-us-container p {
+  font-size: 1.5vw;
+  margin: 1rem 0;
+}
+
+#why-us-container i {
+  margin-right: .6rem;
+}
+
+#why-us-cta-btn {
+  width: 14rem;
+  height: 6rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.6rem;
+  padding: 1.7rem 0 0 2.6rem;
+  border: 3px solid #6CA95E;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #1D3218;
+  overflow-x: hidden;
+}
+
+section, nav {
+  width: 100%;
+  padding: 10rem 16vw;
+}
+
+section h1, section p, section a {
+  letter-spacing: -0.02em;
+  color: #FCFFFC;
+}
+
+section h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: center;
+  padding: 10rem auto 2rem;
+}
+
+section h1 span {
+  color: #6CA95E;
+}
+
+section p {
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  line-height: 145%;
+}
+/*# sourceMappingURL=style.css.map */

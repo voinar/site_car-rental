@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Kumbh+Sans:wght@400;600;700;900&family=Montserrat:wght@200;400;500;600&display=swap');
+
+//fonts
+$headerFont: 'Kumbh Sans', sans-serif;;
+$paragraphFont: 'Montserrat', sans-serif;;
+$logoFont: 'Gemunu Libre', sans-serif;
+
+// solid colors
+$darkGreen: #1D3218;
+$midGreen: #6CA95E;
+$offWhite: #FCFFFC;
+$accentColor: #EAF940;
+$transparentColor: #ff000000;
+
+// gradients
+$lightGradient: linear-gradient(0deg, rgb(102, 224, 75) 40%, rgb(93, 188, 71) 100%);
+$darkGradient: linear-gradient(0deg, rgb(92, 185, 69) 10%, rgb(71, 160, 48) 70%);
+
+// shadows
+$standardShadow: 2px 2px 10px 0px rgba(21, 255, 0, 0.2);
+
+//outline
+$o: 1px solid magenta;

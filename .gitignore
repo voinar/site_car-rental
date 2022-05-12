@@ -1,0 +1,8 @@
+# parcel cache files
+.parcel-cache/
+
+# build directory
+/dist
+
+# various heavyweight assets not used in build
+*.psd

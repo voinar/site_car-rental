@@ -1,0 +1,58 @@
+@import 
+
+'./css-reset.scss', // Josh's Custom CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/
+'./variables.scss',
+'./navbar.scss',
+'./hero-section.scss',
+'./booking-section.scss',
+'./faq-section.scss',
+'./why-us-section.scss'
+; 
+
+
+// global style variables
+
+html * {
+    // outline: .3px solid rgba(0, 255, 255, 0.6);
+}
+
+html {
+    font-size: 62.5%;
+    background-color: $darkGreen;
+    overflow-x: hidden;
+}
+
+section, nav {
+    width: 100%;
+    padding: 10rem 16vw;
+}
+
+section {
+    h1, p, a {
+    letter-spacing: -0.02em;
+    color: $offWhite;
+    }
+
+h1 {
+    font-family: $headerFont;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    padding: 10rem auto 2rem;
+
+    span {
+        color: $midGreen;
+    }
+}
+
+p {
+    font-size: 1.7rem;
+    font-family: $paragraphFont;
+    font-weight: 200;
+    text-align: center;
+    line-height: 145%;
+}
+
+}
+

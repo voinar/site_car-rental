@@ -1,0 +1,37 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 8rem;
+    height: 12rem;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+
+    p {
+        font-family: $logoFont;
+        text-align: left;
+        font-size: 3.4rem;
+        color: $offWhite;
+    }
+
+    img {
+        height: 4rem;
+    }
+}
+
+nav a {
+    font-size: 2rem;
+    font-family: $paragraphFont;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 4rem;
+    color: $offWhite;
+}
+
+#nav-links {
+    margin: auto 0;
+}

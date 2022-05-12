@@ -1,0 +1,79 @@
+#booking-section {
+    background-color: $midGreen;
+}
+
+.booking-perks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+    // width: 100%;
+}
+
+.booking-perk {
+    padding: 0 3rem;
+
+    h1, p {
+        // text-align: left;
+        font-weight: bold;
+    }
+
+    i {
+        padding-right: 1rem;
+    }
+
+}
+
+#booking-options-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.booking-option {
+    background-color: $offWhite;
+    height: 6rem;
+    width: 20%;
+    margin: 0 1rem;
+    border-radius: 1rem;
+
+    p {
+        color: $darkGreen;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 1.8rem 0;
+    }
+
+    i {
+        margin-left: .8rem;
+        font-size: 1.8rem;
+    }
+
+
+}
+
+.cta-btn {
+    background-color: $accentColor !important;
+    border: 2px solid $darkGreen;
+
+    p {
+        font-weight: bold;
+    }
+}
+
+#options-additional {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-left: 8rem;
+
+    p {
+        color: $darkGreen;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+}
+
+.option-additional {
+    margin-right: 2rem;
+}

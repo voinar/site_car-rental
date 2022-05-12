@@ -1,0 +1,29 @@
+{
+  "name": "car-rental",
+  "version": "1.0.0",
+  "description": "car rental site",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./*.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voinar/site_car-rental.git"
+  },
+  "keywords": [
+    "dental"
+  ],
+  "author": "marcin wojnar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voinar/site_car-rental/issues"
+  },
+  "homepage": "https://github.com/voinar/site_car-rental#readme",
+  "dependencies": {
+    "parcel": "^2.5.0"
+  },
+  "source": [
+    "index.html"
+  ]
+}

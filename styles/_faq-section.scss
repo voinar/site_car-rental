@@ -1,0 +1,46 @@
+#faq-section {
+
+}
+
+#faq-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.faq-card {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 1rem;    
+    background: $darkGradient;
+
+    img {
+        position: relative;
+        background: $lightGradient;
+        padding: 1rem;
+        border-radius: 10rem;
+        width: 7rem;
+        height: 7rem;
+        top: -3rem;
+        left: 3.5rem;
+    }
+}
+
+
+
+.faq-card-description {
+
+    position: relative;
+    top: -2rem;
+
+    h1 {
+        font-size: 2.2rem;
+        padding-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}

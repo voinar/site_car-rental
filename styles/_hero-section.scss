@@ -1,0 +1,36 @@
+.hero-background-bottom {
+    background-position: 0 -12rem;
+}
+
+.hero-background {
+    background-image: url("../img/hero-section-background.jpg");
+    height: 50rem; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#hero-section {
+    background-color: $midGreen;
+    
+    h1, p {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 4.4vw;
+        position: relative;
+        width: 40vw;
+        right: auto;
+    }
+
+    p {
+        font-size: 1.8vw;
+        margin-top: 2rem;
+    }
+}
+
+#hero-copy {
+    padding-top: 16%;
+}
+

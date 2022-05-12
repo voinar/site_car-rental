@@ -1,0 +1,46 @@
+#why-us-section {
+    background-image: url("../img/why-us-section-background.jpg");
+    height: 50rem; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#why-us-container {
+    width: 50%;
+    background-color: rgba(4, 37, 8, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 3rem;
+    border-radius: 2rem;
+    
+    h1, p {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 3vw;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: 1.5vw;
+        margin: 1rem 0;
+    }
+
+    i {
+        margin-right: .6rem;
+    }
+}
+
+#why-us-cta-btn {
+    width: 14rem;
+    height: 6rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    font-family: $headerFont;
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding: 1.7rem 0 0 2.6rem;
+    border: 3px solid $midGreen;
+}
