@@ -1,0 +1,23 @@
+#map-agencies-section {
+    background-color: $offWhite;
+    display: flex;
+    flex-direction: row;
+
+    h1, p {
+        color: $darkGreen;
+    }
+}
+
+#map {
+    width: 50%;
+    margin-right: 6rem;
+
+    img {
+        border-radius: 1rem;
+    }
+
+}
+
+#agencies-container {
+    width: 50%;
+}

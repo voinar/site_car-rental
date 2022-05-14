@@ -1,9 +1,11 @@
 #navbar {
     display: flex;
     flex-direction: row;
+    // position: fixed;
     justify-content: space-between;
-    padding-top: 8rem;
+    // padding-top: 6rem;
     height: 12rem;
+    z-index: 10;
 }
 
 #logo {

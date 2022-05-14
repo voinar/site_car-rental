@@ -1,0 +1,21 @@
+#fleet-section {
+    background-color: #FCFFFC;
+    padding-left: 0;
+    padding-right: 0;
+    
+    h1, p {
+        color: $darkGreen;
+    }
+}
+
+#fleet-carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.fleet-carousel-item {
+    img {
+        width: 30rem;
+        position: relative;
+    }
+}

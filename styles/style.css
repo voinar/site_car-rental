@@ -48,8 +48,8 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 8rem;
   height: 12rem;
+  z-index: 10;
 }
 
 #logo {
@@ -87,20 +87,24 @@ nav a {
   margin: auto 0;
 }
 
+.hero-background-top {
+  background-position: 0 -8rem;
+}
+
 .hero-background-bottom {
-  background-position: 0 -12rem;
+  background-position: 0 -8rem;
 }
 
 .hero-background {
   background-image: url("../img/hero-section-background.jpg");
-  height: 50rem;
-  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #hero-section {
   background-color: #6CA95E;
+  padding-top: 22rem;
+  height: 50vw;
 }
 
 #hero-section h1, #hero-section p {
@@ -110,17 +114,18 @@ nav a {
 #hero-section h1 {
   font-size: 4.4vw;
   position: relative;
-  width: 40vw;
-  right: auto;
+  font-weight: 700;
 }
 
 #hero-section p {
   font-size: 1.8vw;
   margin-top: 2rem;
+  font-weight: 400;
 }
 
 #hero-copy {
-  padding-top: 16%;
+  padding: 10rem 0;
+  width: 30vw;
 }
 
 #booking-section {
@@ -268,7 +273,7 @@ nav a {
 
 #why-us-section {
   background-image: url("../img/why-us-section-background.jpg");
-  height: 50rem;
+  height: 50vw;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,6 +317,177 @@ nav a {
   font-size: 1.6rem;
   padding: 1.7rem 0 0 2.6rem;
   border: 3px solid #6CA95E;
+}
+
+#fleet-section {
+  background-color: #FCFFFC;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#fleet-section h1, #fleet-section p {
+  color: #1D3218;
+}
+
+#fleet-carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fleet-carousel-item img {
+  width: 30rem;
+  position: relative;
+}
+
+#map-agencies-section {
+  background-color: #FCFFFC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#map-agencies-section h1, #map-agencies-section p {
+  color: #1D3218;
+}
+
+#map {
+  width: 50%;
+  margin-right: 6rem;
+}
+
+#map img {
+  border-radius: 1rem;
+}
+
+#agencies-container {
+  width: 50%;
+}
+
+#news-section {
+  background-image: url("../img/news-section-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+}
+
+#news-section h1, #news-section p {
+  text-align: left;
+  padding: 2rem;
+}
+
+#news-section h1 {
+  font-size: 2vw;
+  height: 6vw;
+}
+
+#news-section p {
+  font-size: 1.4vw;
+  height: 18vw;
+}
+
+.news-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  background-color: #1D3218;
+}
+
+.news-card-top {
+  border-radius: 1rem;
+}
+
+.news-card-learn-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#footer {
+  background-image: url("../img/footer-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer h1, #footer p, #footer a {
+  color: #1D3218;
+  text-align: left;
+}
+
+#footer h1 {
+  font-size: 2vw;
+}
+
+#footer a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4vw;
+  line-height: 2.2vw;
+}
+
+#footer-link-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 7vw;
+  margin-top: 2rem;
+}
+
+.footer-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer-social h1 {
+  margin-top: 4rem;
+}
+
+#footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-icon {
+  margin: auto .8rem auto 0;
 }
 
 html {

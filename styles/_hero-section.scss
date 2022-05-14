@@ -1,17 +1,23 @@
+.hero-background-top {
+    background-position: 0 -8rem;
+}
+
 .hero-background-bottom {
-    background-position: 0 -12rem;
+    background-position: 0 -8rem;
 }
 
 .hero-background {
     background-image: url("../img/hero-section-background.jpg");
-    height: 50rem; 
-    background-position: top; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    // height: auto;
+    // background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hero-section {
     background-color: $midGreen;
+    padding-top: 22rem;
+    height: 50vw;
     
     h1, p {
         text-align: left;
@@ -20,17 +26,19 @@
     h1 {
         font-size: 4.4vw;
         position: relative;
-        width: 40vw;
-        right: auto;
+        font-weight: 700;
     }
 
     p {
         font-size: 1.8vw;
         margin-top: 2rem;
+        font-weight: 400;
     }
 }
 
 #hero-copy {
-    padding-top: 16%;
+    padding: 10rem 0;
+
+    width: 30vw;
 }
 
